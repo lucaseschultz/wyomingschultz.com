@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Palindrome Checker</title>
+  <meta charset="UTF-8">
+  <meta name='viewport'
+        content='width=device-width, initial-scale=1, maximum-scale=1'/>
+  <link rel="icon" href="../images/schultz-creations.jpg">
+  <link rel="stylesheet" href="styles.css"/>
+  <!-- OG (Object Graph)-->
+  <meta property="og:title" content="Palindrome Checker"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:image" content="images/palindrome.jpg"/>
+  <meta property="og:url" content="https://www.wyomingschultz.com/palindrome-checker"/>
+  <meta property="og:description" content="palindrome checker website"/>
+  <meta property="og:image:alt" content="palindrome picture"/>
+</head>
+<body>
+<div class="content">
+  <header class="page-header">
+    <h1 class="page-header-text">Is it a Palindrome?</h1>
+  </header>
+  <article class="palindrome-form">
+    <label for="text-input" class="palindrome-form-header">Enter in text to check if it's a palindrome:</label>
+    <div class="palindrome-form-js">
+      <input id="text-input" name="palindrome-input" type="text"/>
+      <button type="button" id="check-btn" aria-label="Check if palindrome">Check</button>
+    </div>
+    <div id="result" class="hide"></div>
+  </article>
+  <footer class="palindrome-def">
+    <span role="img" aria-label="light-bulb">💡</span>
+    <p>A <em>palindrome</em> is a word or sentence that's spelled the same way
+      both forward and backward, ignoring punctuation, case, and
+      spacing.</p>
+  </footer>
+</div>
+<script src="build/script.js"></script>
+</body>
+</html>

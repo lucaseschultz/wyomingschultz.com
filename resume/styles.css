@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.9s;
+}
+@media (prefers-reduced-motion) {
+  * {
+    transition: none;
+  }
+}
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+p {
+  font-family: "Lato", sans-serif;
+  line-height: 1.6;
+}
+h1 {
+  font-size: 2.5em;
+}
+a {
+  text-decoration: none;
+}
+strong {
+  font-size: 2em;
+}
+li,
+p {
+  font-size: 1.4em;
+}
+li {
+  list-style-image: url("https://fontawesome.com/icons/arrow-right?f=classic&s=solid");
+}
+li ul {
+  list-style-type: circle;
+}
+@media only screen and (min-width: 960px) {
+  li ul {
+    margin-left: 40px;
+  }
+}
+li ul li {
+  font-size: 0.9em;
+}
+.w3-content {
+  max-width: 96ch;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+@media only screen and (max-width: 960px) {
+  .w3-content {
+    margin-top: 110px;
+    max-width: 90vw;
+  }
+  .w3-content * > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .w3-content * > span:last-of-type {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media only screen and (max-width: 960px) {
+  .w3-panel {
+    position: relative;
+    left: -5vw;
+  }
+}
+.header div {
+  width: 16%;
+}
+@media only screen and (max-width: 960px) {
+  .header div {
+    width: 30%;
+  }
+}
+.header div a {
+  transition: none;
+  font-size: 1.5rem;
+  width: 100%;
+}
+@media only screen and (max-width: 960px) {
+  .header div a {
+    font-size: 1rem;
+  }
+}
+#page {
+  margin-top: 50px;
+}
+@media only screen and (max-width: 960px) {
+  #page {
+    margin-top: 100px;
+  }
+}
+.w3-block {
+  font-size: 1.7vw;
+}
+@media only screen and (max-width: 960px) {
+  .w3-block {
+    font-size: 80%;
+  }
+}
+.w3-panel,
+.profile {
+  max-width: 439px;
+}
+#name {
+  text-align: center;
+}
+.profile {
+  height: auto;
+}
+@media only screen and (max-width: 960px) {
+  .profile {
+    width: 90vw;
+  }
+}
+.experience-item {
+  display: flex;
+  margin-top: 110px;
+  align-items: center;
+}
+@media only screen and (max-width: 960px) {
+  .experience-item {
+    margin-top: 5em;
+  }
+}
+.transition,
+.experience-item {
+  opacity: 0;
+  filter: blur(1px);
+  transform: translateX(-100%);
+}
+@media only screen and (min-width: 960px) {
+  .experience-content {
+    margin-left: 25px;
+  }
+}
+.education-list > li span:last-of-type {
+  color: #666666;
+}
+@media only screen and (min-width: 960px) {
+  .education-list > li span:last-of-type::before {
+    content: '- ';
+  }
+}
+.experience-img {
+  width: 200px;
+  height: auto;
+}
+#copy-email-btn {
+  cursor: pointer;
+  font-size: 14px;
+  margin-left: 1rem;
+  border-radius: 8px;
+  border-width: 0;
+  padding: 3px 9px;
+  line-height: 20px;
+  font-weight: 500;
+}
+.show {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+}
+.flex-vertical-centered {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media only screen and (max-width: 960px) {
+  .content {
+    font-size: 0.8rem;
+    text-align: center;
+  }
+  #experience > * > img {
+    width: 30vw;
+    height: auto;
+  }
+}
+/*# sourceMappingURL=styles.css.map */

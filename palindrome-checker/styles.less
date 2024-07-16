@@ -1,0 +1,100 @@
+* {
+    font-size: 5vw;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    @media only screen and (min-width: 960px) {
+        font-size: 1.5rem;
+    }
+}
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    background-color: #0a0a23;
+}
+.vertical-flex-centered {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content {
+    width: 100vw;
+    .vertical-flex-centered();
+        > * {
+        width: 95vw;
+        margin-top: 1.5rem;
+        padding: 1.5rem;
+        @media only screen and (min-width: 960px) {
+            width: 20rem;
+            padding: 1rem;
+        }
+    }
+}
+.page-header {
+    text-align: center;
+}
+.page-header-text {
+    font-size: 1.5rem;
+}
+.palindrome-form {
+    .vertical-flex-centered();
+    color: black;
+    background-color: white;
+    box-shadow: 0 .5vw .5vw #002ead;
+}
+.palindrome-form, .palindrome-def {
+    border-radius: 1rem;
+    @media only screen and (min-width: 960px) {
+        border-radius: .7rem;
+    }
+}
+.palindrome-form-header, #check-btn {
+    font-size: .7rem;
+    @media only screen and (min-width: 960px) {
+        font-size: .65rem;
+    }
+}
+.palindrome-form-header {
+    margin-bottom: 1.3em;
+}
+.palindrome-form-js {
+    display: flex;
+    justify-content: space-around;
+}
+#text-input {
+    font-size: 1rem;
+    border: none;
+    border-bottom: .12rem solid #5a01a7;
+    text-align: center;
+}
+#check-btn {
+    margin-left: .5em;
+    background-color: #5a01a7;
+    color: #fff;
+    cursor: pointer;
+    padding: .4em;
+    width: 6em;
+    border: none;
+    text-align: center;
+    border-radius: .6rem;
+}
+#result, #result > strong {
+    margin-top: 1em;
+    font-size: 1rem;
+    text-align: center;
+}
+.hide {
+    display: none;
+}
+.palindrome-def {
+    background-color: #00471b;
+    display: flex;
+    margin-bottom: 1rem;
+    > p, em {
+        font-size: .8rem;
+        @media only screen and (min-width: 960px) {
+            font-size: .85rem;
+        }
+    }
+}
+
