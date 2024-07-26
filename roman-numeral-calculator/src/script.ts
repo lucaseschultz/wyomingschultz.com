@@ -3,10 +3,7 @@ const CONVERT_BTN = <HTMLElement>document.getElementById('convert-btn');
 const INPUT = <HTMLInputElement>document.getElementById('input');
 const OUTPUT = <HTMLElement>document.getElementById('output');
 
-type numeral = {numeralStr: string, numeralVal: number};
-const NUMERAL_REFS: [numeral, numeral, numeral, numeral, numeral, numeral, numeral, numeral, numeral, numeral, numeral,
-    numeral, numeral, numeral, numeral, numeral, numeral, numeral, numeral, numeral, numeral, numeral, numeral, numeral,
-    numeral] = [
+const NUMERAL_REFS: {numeralStr: string, numeralVal: number}[] = [
     {numeralStr: '_M', numeralVal: 1000000},
     {numeralStr: '_C_M', numeralVal: 900000},
     {numeralStr: '_D', numeralVal: 500000},
