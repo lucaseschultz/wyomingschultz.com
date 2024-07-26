@@ -1,9 +1,9 @@
 "use strict";
-const form = document.getElementById('form');
-const convertButton = document.getElementById('convert-btn');
-const input = document.getElementById('input');
-const output = document.getElementById('output');
-const numeralRefs = [
+const FORM = document.getElementById('form');
+const CONVERT_BTN = document.getElementById('convert-btn');
+const INPUT = document.getElementById('input');
+const OUTPUT = document.getElementById('output');
+const NUMERAL_REFS = [
     { numeralStr: '_M', numeralVal: 1000000 },
     { numeralStr: '_C_M', numeralVal: 900000 },
     { numeralStr: '_D', numeralVal: 500000 },
@@ -37,42 +37,42 @@ const convertToNum = (str) => {
     let splitInput = str.toUpperCase().split('');
     let numeralRefsLocation = 0;
     let count = 0;
-    let Error = false;
+    let isError = false;
     splitInput.forEach(function (numeral) {
-        if (Error) {
+        if (isError) {
             return null;
         }
         else if (skip > 0) {
             skip -= 1;
         }
         else {
-            const numerals2 = numeral + splitInput[numeralLocation + 1];
-            const numerals4 = numerals2 + splitInput[numeralLocation + 2] + splitInput[numeralLocation + 3];
+            const NUMERALS2 = numeral + splitInput[numeralLocation + 1];
+            const NUMERALS4 = NUMERALS2 + splitInput[numeralLocation + 2] + splitInput[numeralLocation + 3];
             while (numeralRefsLocation < 25) {
-                if (numeralRefs[numeralRefsLocation]["numeralStr"] === numerals4) {
-                    count += numeralRefs[numeralRefsLocation]['numeralVal'];
+                if (NUMERAL_REFS[numeralRefsLocation]["numeralStr"] === NUMERALS4) {
+                    count += NUMERAL_REFS[numeralRefsLocation]['numeralVal'];
                     skip = 3;
                     break;
                 }
-                else if (numeralRefs[numeralRefsLocation]['numeralStr'] === numerals2) {
-                    count += numeralRefs[numeralRefsLocation]['numeralVal'];
+                else if (NUMERAL_REFS[numeralRefsLocation]['numeralStr'] === NUMERALS2) {
+                    count += NUMERAL_REFS[numeralRefsLocation]['numeralVal'];
                     skip = 1;
                     break;
                 }
-                else if (numeralRefs[numeralRefsLocation]['numeralStr'] === numeral) {
-                    count += numeralRefs[numeralRefsLocation]['numeralVal'];
+                else if (NUMERAL_REFS[numeralRefsLocation]['numeralStr'] === numeral) {
+                    count += NUMERAL_REFS[numeralRefsLocation]['numeralVal'];
                     break;
                 }
                 numeralRefsLocation += 1;
                 if (numeralRefsLocation >= 25) {
-                    Error = true;
+                    isError = true;
                 }
             }
         }
         numeralLocation += 1;
     });
-    if (Error) {
-        addClass(output, 'alert');
+    if (isError) {
+        addClass(OUTPUT, 'alert');
         return 'Please enter a valid input';
     }
     else {
@@ -81,7 +81,7 @@ const convertToNum = (str) => {
 };
 const convertToRoman = (num) => {
     let numerals = [];
-    numeralRefs.forEach(function (numeralRef) {
+    NUMERAL_REFS.forEach(function (numeralRef) {
         while (num >= numeralRef['numeralVal']) {
             if (num >= 4000) {
                 let letters = numeralRef['numeralStr'].split('_').join('');
@@ -93,7 +93,7 @@ const convertToRoman = (num) => {
             num -= numeralRef['numeralVal'];
         }
     });
-    return `<p>${input.value.split(',').join('')} = ${numerals.join('')}</p>`;
+    return `<p>${INPUT.value.split(',').join('')} = ${numerals.join('')}</p>`;
 };
 const isValid = (str, int) => {
     if (!str.match(/[0-9_ivxlcdm.]/ig) || str.match(/[a-z]/i) && str.match(/[0-9]/)) {
@@ -120,29 +120,29 @@ const removeClass = (container, effect) => {
     container.classList.remove(effect);
 };
 const updateUI = () => {
-    let str = input.value;
+    let str = INPUT.value;
     let cleanInt = parseInt(str.split(',').join(''), 10);
-    removeClass(output, 'hidden');
-    removeClass(output, 'alert');
+    removeClass(OUTPUT, 'hidden');
+    removeClass(OUTPUT, 'alert');
     if (isValid(str, cleanInt)) {
         console.log('Input Valid');
         if (str.match(/[0-9]/)) {
-            output.innerHTML = convertToRoman(cleanInt);
+            OUTPUT.innerHTML = convertToRoman(cleanInt);
         }
         else {
-            output.innerHTML = convertToNum(str);
+            OUTPUT.innerHTML = convertToNum(str);
         }
     }
     else {
         console.log('Input Not Valid');
-        output.innerHTML = errText;
-        addClass(output, 'alert');
+        OUTPUT.innerHTML = errText;
+        addClass(OUTPUT, 'alert');
     }
 };
-form.addEventListener('submit', e => {
+FORM.addEventListener('submit', e => {
     e.preventDefault();
     updateUI();
 });
-convertButton.addEventListener('click', () => {
+CONVERT_BTN.addEventListener('click', () => {
     updateUI();
 });
