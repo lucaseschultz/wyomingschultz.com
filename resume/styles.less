@@ -133,10 +133,12 @@ li {
     display: inline-block !important;
     animation: carousel 35s linear infinite;
     img {
-        height: 125px;
+        max-height: 125px;
+        max-width: 200px;
         margin: 0 40px;
         @media only screen and (max-width: 960px) {
-            height: 100px;
+            max-height: 100px;
+            max-width: 160px;
             margin: 0 20px;
         }
     }
