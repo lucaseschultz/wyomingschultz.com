@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all .9s;
+    @media(prefers-reduced-motion) {
+        transition: none;
+    }
+}
+html {
+    scroll-behavior: smooth;
+}
+html,body,h1,h2,h3,h4,p {
+    font-family:"Lato", sans-serif;
+    line-height: 1.6;
+}
+h1 {
+    font-size: 2.5em;
+}
+a {
+    text-decoration: none;
+}
+strong {
+    font-size: 2em;
+}
+li, p {
+    font-size: 1.4em;
+}
+li {
+    list-style-image: url("https://fontawesome.com/icons/arrow-right?f=classic&s=solid");
+    ul {
+        list-style-type: circle;
+        @media only screen and (min-width: 960px) {
+            margin-left: 40px;
+        }
+            li {
+            font-size: .9em;
+        }
+    }
+}
+.w3-content {
+    max-width: 96ch;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    @media only screen and (max-width: 960px) {
+        margin-top: 110px;
+        max-width: 90vw;
+        * > div {
+            .flex-vertical-centered();
+        }
+        * > span:last-of-type {
+            .flex-vertical-centered();
+        }
+    }
+}
+.w3-panel {
+    @media only screen and (max-width: 960px) {
+        position: relative;
+        left: -5vw;
+    }
+}
+.header {
+    div {
+        width: 16%;
+        @media only screen and (max-width: 960px) {
+            width: 30%;
+        }
+        a {
+            transition: none;
+            font-size: 1.5rem;
+            width: 100%;
+            @media only screen and (max-width: 960px) {
+                font-size: 1rem
+            }
+        }
+    }
+}
+.header-last-row {
+    @media only screen and (max-width: 960px) {
+        //width: 50% !important; For 5 headers
+    }
+}
+#page {
+    margin-top: 50px;
+    @media only screen and (max-width: 960px) {
+        margin-top: 100px;
+    }
+}
+.w3-block {
+    font-size: 1.7vw;
+    @media only screen and (max-width: 960px) {
+        font-size: 80%;
+    }
+}
+.w3-panel, .profile {
+    max-width: 439px;
+}
+#name {
+    text-align: center;
+}
+.profile {
+    height: auto;
+    @media only screen and (max-width: 960px) {
+        width: 90vw;
+    }
+}
+.infinite-carousel:before, .infinite-carousel:after {
+    position: absolute;
+    top: 0;
+    width: 25px;
+    height: 100%;
+    content: '';
+    z-index: 2;
+}
+.infinite-carousel:before {
+    background: linear-gradient(to left, transparent, white);
+    left: 0;
+}
+.infinite-carousel:after {
+    background: linear-gradient(to right, transparent, white);
+    right: 0;
+}
+.infinite-carousel {
+    position: relative;
+    overflow: hidden;
+    white-space: nowrap;
+    flex-direction: row !important;
+}
+.infinite-carousel:hover .carousel-slide {
+    animation-play-state: paused;
+}
+.carousel-slide {
+    display: inline-block !important;
+    animation: carousel 35s linear infinite;
+    img {
+        height: 125px;
+        margin: 0 40px;
+        @media only screen and (max-width: 960px) {
+            height: 100px;
+            margin: 0 20px;
+        }
+    }
+}
+.experience-item {
+    display: flex;
+    margin-top: 110px;
+    align-items: center;
+    @media only screen and (max-width: 960px) {
+        margin-top: 5em;
+    }
+}
+.transition, .experience-item {
+    opacity: 0;
+    filter: blur(1px);
+    transform: translateX(-100%);
+}
+.experience-content {
+    @media only screen and (min-width: 960px) {
+        margin-left: 25px;
+    }
+}
+.education-list > li {
+    span:last-of-type {
+        color: rgb(102, 102, 102);
+    }
+    @media only screen and (min-width: 960px) {
+        span:last-of-type::before {
+            content: '- ';
+        }
+    }
+}
+.experience-img {
+    width: 200px;
+    height: auto;
+}
+#copy-email-btn {
+    cursor: pointer;
+    font-size: 14px;
+    margin-left: 1rem;
+    border-radius: 8px;
+    border-width: 0;
+    padding: 3px 9px;
+    line-height: 20px;
+    font-weight: 500;
+}
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+.flex-vertical-centered {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.fa-brands {
+    margin-left: .4rem;
+}
+
+
+@media only screen and (max-width: 960px) {
+    .content {
+        font-size: .8rem;
+        text-align: center;
+    }
+    #experience > * > img {
+        width: 30vw;
+        height: auto;
+    }
+}
+
+
+@keyframes carousel {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}

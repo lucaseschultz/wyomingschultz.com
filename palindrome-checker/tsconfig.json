@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    /* Modules */
+    "module": "commonjs",
+    "target": "es2016",
+    "sourceMap": false,
+    "rootDir": "src",
+    "outDir": "build",
+    /* JavaScript Support */
+    "allowJs": true, // Allow JavaScript files to be compiled
+    "checkJs": true, // Type check JavaScript files and report errors
+    /* Emit */
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true
+  },
+  "include": [
+    "src"
+  ] // Ensure only files in src are compiled
+}
