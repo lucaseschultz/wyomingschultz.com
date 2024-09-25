@@ -1,4 +1,4 @@
-const TRANSITION_ITEMS = document.querySelectorAll('.experience-item, .transition');
+const TRANSITION_ITEMS = document.querySelectorAll('.transition');
 
 const OBSERVER = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
