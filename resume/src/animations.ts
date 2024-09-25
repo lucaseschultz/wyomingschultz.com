@@ -1,4 +1,5 @@
 const TRANSITION_ITEMS = document.querySelectorAll('.transition');
+const OBSERVABLE_CAROUSEL = document.querySelector('.carousel-slide')!;
 const CAROUSELS = document.querySelectorAll('.carousel-slide');
 
 const TRANSITION_OBSERVER = new IntersectionObserver((entries) => {
@@ -19,5 +20,5 @@ const CAROUSEL_OBSERVER = new IntersectionObserver((entries) => {
     })
 })
 
-CAROUSELS.forEach((el) => CAROUSEL_OBSERVER.observe(el));
+CAROUSEL_OBSERVER.observe(OBSERVABLE_CAROUSEL);
 TRANSITION_ITEMS.forEach((el) => TRANSITION_OBSERVER.observe(el));
