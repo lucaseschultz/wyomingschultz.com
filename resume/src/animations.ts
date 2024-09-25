@@ -10,14 +10,16 @@ const TRANSITION_OBSERVER = new IntersectionObserver((entries) => {
     })
 });
 const CAROUSEL_OBSERVER = new IntersectionObserver((entries) => {
-    entries.forEach((entry) => {
-        if (!entry.isIntersecting) {
-            entry.target.classList.add('pause');
+        if (entries[0].isIntersecting) {
+            CAROUSELS.forEach((carouselElement) => {
+                carouselElement.classList.remove('pause');
+            })
         }
         else {
-            entry.target.classList.remove('pause')
+            CAROUSELS.forEach((carouselElement) => {
+                carouselElement.classList.add('pause');
+            })
         }
-    })
 })
 
 CAROUSEL_OBSERVER.observe(OBSERVABLE_CAROUSEL);
