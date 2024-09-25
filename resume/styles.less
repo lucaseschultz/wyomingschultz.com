@@ -126,9 +126,6 @@ li {
     white-space: nowrap;
     flex-direction: row !important;
 }
-.infinite-carousel:hover .carousel-slide {
-    animation-play-state: paused;
-}
 .carousel-slide {
     display: inline-block !important;
     animation: carousel 35s linear infinite;
@@ -142,6 +139,12 @@ li {
             margin: 0 20px;
         }
     }
+}
+.infinite-carousel:hover .carousel-slide {
+    animation-play-state: paused;
+}
+.pause {
+    animation-play-state: paused;
 }
 .experience-item {
     display: flex;
