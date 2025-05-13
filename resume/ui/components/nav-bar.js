@@ -1,4 +1,4 @@
-// noinspection HtmlUnknownAnchorTarget
+// noinspection HtmlUnknownAnchorTarget,JSUnusedGlobalSymbols
 
 class NavBar extends HTMLElement {
   constructor() {
