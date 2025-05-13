@@ -14,19 +14,6 @@ class ExperienceHistory extends HTMLElement {
                     Experience</h3>
             </div>
             <div>
-                <div class="transition experience-item" style="margin-top: 0;">
-                    <img class="experience-img" src="../images/leetcode_logo.webp" alt="" />
-                    <div class="experience-content crescent-content">
-                        <p><b>LeetCode</b></p>
-                        <ul>
-                            <li>
-                                Consistently write code superior in run time and memory utilization than average user’s
-                                code
-                                <ul><li>Ex: Top 96.99% runtime and 94% memory usage efficiency</li></ul>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
                 <div class="transition experience-item">
                     <img class="experience-img" src="../images/intervarsity_logo.png" alt="" />
                     <div class="experience-content">
