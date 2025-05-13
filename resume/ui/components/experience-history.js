@@ -15,35 +15,29 @@ class ExperienceHistory extends HTMLElement {
             </div>
             <div>
                 <div class="transition experience-item">
-                    <img class="experience-img" src="../images/intervarsity_logo.png" alt="" />
-                    <div class="experience-content">
-                        <p><b>Intervarsity (IV) of Rock Valley College (RVC) President</b></p>
-                        <ul>
-                            <li>Awarded the 2021 RVC Male Student Leadership Award</li>
-                            <li>
-                                Led IV’s “Core Group” in meeting all organizational goals
-                                <ul><li>Appointed tasks to those most qualified, ensuring optimal operational efficiency
-                                </li></ul>
-                            </li>
-                            <li>
-                                Effectively communicated with non-technical stakeholders
-                                <ul><li>Proposed and followed through with innovative organizational practices</li></ul>
-                            </li>
-                            <li>Organized and ran weekly meetings, maintaining member engagement</li>
-                            <li>Increased organizational engagement, by facilitating former and prospective member
-                                outreach</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="transition experience-item">
                     <img class="experience-img" src="../images/crescent_electric_supply_logo.jpg" alt=""/>
                     <div class="experience-content">
                         <p><b>Crescent Electric Supply Company</b></p>
                         <ul>
-                            <li>Increased 2024 YTD sales by $147K</li>
+                            <li>Implemented data-driven customer management approach, improving efficiency</li> 
+                            <li>Identified process bottlenecks and developed effective solutions</li>
+                            <li>Collaborated across teams to streamline workflows and enhance customer experience</li>
                         </ul>
                     </div>
                 </div>
+
+                <div class="transition experience-item">
+                  <img class="experience-img" src="../images/intervarsity_logo.png" alt="" />
+                  <div class="experience-content">
+                      <p><b>Intervarsity (IV) of Rock Valley College (RVC) President</b></p>
+                      <ul>
+                          <li>Awarded 2021 RVC Male Student Leadership Award for exceptional leadership</li>
+                          <li>Analyzed team strengths to optimize resource allocation and improve efficiency</li>
+                          <li>Created documented frameworks for consistent implementation of organizational goals</li>
+                          <li>Designed iterative improvement cycles and data-driven strategies to increase engagement</li>
+                      </ul>
+                  </div>
+              </div>
             </div>
         </div>
       `;
