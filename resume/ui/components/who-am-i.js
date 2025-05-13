@@ -13,7 +13,7 @@ class WhoAmI extends HTMLElement {
         </div>
         <div>
           <p>
-            Financially & operationally driven professional  •  Software Engineer  •  2+ years experience <!-- Started May 2023 -->
+            Software Engineer • Analytical problem solver • Process optimization background • 2+ years experience <!-- Started May 2023 -->
           </p>
         </div>
       </div>
