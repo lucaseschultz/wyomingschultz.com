@@ -14,7 +14,6 @@ class SkillsCarousel extends HTMLElement {
         <div class="infinite-carousel">
           <!-- png's -->
           <div class="carousel-slide pause">
-            <img src="../images/openai-icon.png" alt="OpenAI Logo"/>
             <img src="../images/html-icon.png" alt="HTML Logo"/>
             <img src="../images/css-icon.png" alt="CSS Logo"/>
             <img src="../images/less-icon.png" alt="LESS Logo"/>
@@ -27,6 +26,9 @@ class SkillsCarousel extends HTMLElement {
             <img src="../images/nextjs-icon.png" alt="Next Logo"/>
             <img src="../images/vercel-icon.png" alt="Vercel Logo"/>
             <img src="../images/angular-icon.png" alt="Angular Logo"/>
+            <img src="../images/jquery-icon.png" alt="jQuery Icon"/>
+            
+            <!-- Backend -->
             <img src="../images/nodejs-icon.png" alt="Node Logo"/>
             <img src="../images/expressjs-icon.png" alt="Express Logo"/>
             <img src="../images/php-icon.png" alt="PHP Logo"/>
@@ -36,16 +38,17 @@ class SkillsCarousel extends HTMLElement {
             <img src="../images/postgresql-icon.png" alt="PostgreSQL"/>
             <img src="../images/mongodb-icon.png" alt="MongoDB Logo"/>
             <img src="../images/mongoose-icon.png" alt="Mongoose Logo"/>
-            <img src="../images/jquery-icon.png" alt="jQeury Icon"/>
+            
+            <!-- Tools & Practices -->
             <img src="../images/git-icon.png" alt="Git Logo"/>
             <img src="../images/github-icon.png" alt="GitHub Logo"/>
             <img src="../images/ui_ux-icon.png" alt="UI/UX Icon"/>
             <img src="../images/ci_cd-icon.png" alt="CI/CD Icon"/>
             <img src="../images/agile_icon.png" alt="Agile Logo"/>
+            <img src="../images/openai-icon.png" alt="OpenAI Logo"/>
           </div>
           <!-- Duplicate of icons to create carousel -->
-          <div class="carousel-slide pause">
-            <img src="../images/openai-icon.png" alt="OpenAI Logo"/>
+          <div class="carousel-slide pause">            
             <img src="../images/html-icon.png" alt="HTML Logo"/>
             <img src="../images/css-icon.png" alt="CSS Logo"/>
             <img src="../images/less-icon.png" alt="LESS Logo"/>
@@ -58,6 +61,9 @@ class SkillsCarousel extends HTMLElement {
             <img src="../images/nextjs-icon.png" alt="Next Logo"/>
             <img src="../images/vercel-icon.png" alt="Vercel Logo"/>
             <img src="../images/angular-icon.png" alt="Angular Logo"/>
+            <img src="../images/jquery-icon.png" alt="jQuery Icon"/>
+            
+            <!-- Backend -->
             <img src="../images/nodejs-icon.png" alt="Node Logo"/>
             <img src="../images/expressjs-icon.png" alt="Express Logo"/>
             <img src="../images/php-icon.png" alt="PHP Logo"/>
@@ -67,12 +73,14 @@ class SkillsCarousel extends HTMLElement {
             <img src="../images/postgresql-icon.png" alt="PostgreSQL"/>
             <img src="../images/mongodb-icon.png" alt="MongoDB Logo"/>
             <img src="../images/mongoose-icon.png" alt="Mongoose Logo"/>
-            <img src="../images/jquery-icon.png" alt="jQeury Icon"/>
+            
+            <!-- Tools & Practices -->
             <img src="../images/git-icon.png" alt="Git Logo"/>
             <img src="../images/github-icon.png" alt="GitHub Logo"/>
             <img src="../images/ui_ux-icon.png" alt="UI/UX Icon"/>
             <img src="../images/ci_cd-icon.png" alt="CI/CD Icon"/>
             <img src="../images/agile_icon.png" alt="Agile Logo"/>
+            <img src="../images/openai-icon.png" alt="OpenAI Logo"/>
           </div>
         </div>
       </div>
