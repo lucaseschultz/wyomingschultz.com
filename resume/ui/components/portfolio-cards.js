@@ -1,6 +1,6 @@
 // noinspection HtmlUnknownAnchorTarget,JSUnusedGlobalSymbols,HtmlUnknownTarget
 
-class ResumePortfolio extends HTMLElement {
+class PortfolioCards extends HTMLElement {
   constructor() {
     super();
   }
@@ -44,4 +44,4 @@ class ResumePortfolio extends HTMLElement {
   }
 }
 
-customElements.define('resume-portfolio', ResumePortfolio);
+customElements.define('portfolio-cards', PortfolioCards);
