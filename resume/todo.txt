@@ -16,6 +16,6 @@ revisit skills list
 
 replace open AI icon with generic
 
-Crescent YOY $249K (which stat/stats are best to show)
+remove unused images
 
 Let components get more on page, before activating appear animation
