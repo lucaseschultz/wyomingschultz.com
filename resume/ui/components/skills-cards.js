@@ -1,3 +1,5 @@
+// noinspection HtmlUnknownAnchorTarget,JSUnusedGlobalSymbols,HtmlUnknownTarget
+
 class SkillsCards extends HTMLElement {
   constructor() {
     super();
