@@ -253,13 +253,20 @@ li {
 }
 
 /* Experience Styles */
-.experience-item {
-  display: flex;
-  margin-top: 110px;
-  align-items: center;
+.experience-list {
+  margin-top: 0;
 
-  @media only screen and (max-width: 960px) {
-    margin-top: 5em;
+  > * {
+    display: flex;
+    align-items: center;
+
+    @media only screen and (max-width: 960px) {
+      margin-top: 5em;
+    }
+  }
+
+  > *:not(:first-child) {
+    margin-top: 110px;
   }
 }
 

@@ -13,8 +13,8 @@ class ExperienceHistory extends HTMLElement {
                         class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16" style="width: 9ch;">
                     Experience</h3>
             </div>
-            <div>
-                <div class="transition experience-item">
+            <div class="experience-list">
+                <div class="transition">
                     <img class="experience-img" src="../images/crescent_electric_supply_logo.jpg" alt=""/>
                     <div class="experience-content">
                         <p><b>Crescent Electric Supply Company</b></p>
