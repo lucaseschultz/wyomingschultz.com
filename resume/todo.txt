@@ -20,11 +20,13 @@ remove unused images
 
 Let components get more on page, before activating appear animation
 
+refactor w3 classes?
+
+shorten who-am-to, as to avoid 2 lines?
+
 convert duplicate styling to variables. Ex.
 li, p {
   font-size: 1.4em;
 }
 
-refactor w3 classes?
-
-shorten who-am-to, as to avoid 2 lines?
+audit styles.scss
