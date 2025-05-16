@@ -20,4 +20,4 @@ remove unused images
 
 Let components get more on page, before activating appear animation
 
-fix components not appearing/showing
+fix gap after "experience" header
