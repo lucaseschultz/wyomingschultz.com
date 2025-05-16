@@ -20,4 +20,9 @@ remove unused images
 
 Let components get more on page, before activating appear animation
 
-fix gap after "experience" header
+convert duplicate styling to variables. Ex.
+li, p {
+  font-size: 1.4em;
+}
+
+refactor w3 classes?
