@@ -14,7 +14,7 @@ class ExperienceHistory extends HTMLElement {
                     Experience</h3>
             </div>
             <div class="experience-list">
-                <div class="transition">
+                <div class="transition experience-item">
                     <img class="experience-img" src="../images/crescent_electric_supply_logo.jpg" alt=""/>
                     <div class="experience-content">
                         <p><b>Crescent Electric Supply Company</b></p>
