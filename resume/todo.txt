@@ -26,3 +26,5 @@ li, p {
 }
 
 refactor w3 classes?
+
+shorten who-am-to, as to avoid 2 lines?
