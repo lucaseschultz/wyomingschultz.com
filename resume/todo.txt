@@ -20,9 +20,11 @@ remove unused images
 
 Let components get more on page, before activating appear animation
 
+shorten who-am-to, as to avoid 2 lines?
+
 refactor w3 classes?
 
-shorten who-am-to, as to avoid 2 lines?
+refactor experience-item to be children of experience-list
 
 convert duplicate styling to variables. Ex.
 li, p {
@@ -30,5 +32,3 @@ li, p {
 }
 
 audit styles.scss
-
-refactor experience-item to be children of experience-list
