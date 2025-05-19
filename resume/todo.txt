@@ -21,6 +21,7 @@ remove unused images
 Let components get more on page, before activating appear animation
 
 shorten who-am-to, as to avoid 2 lines?
+shorten Intervarsity bullet points?
 
 refactor w3 classes?
 
