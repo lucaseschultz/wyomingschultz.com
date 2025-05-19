@@ -296,14 +296,14 @@ img {
   list-style: none;
   padding: 0;
 
-   > li span:last-of-type {
+  > li span:last-of-type {
     color: rgb(102, 102, 102);
 
-     &::before {
-       @media only screen and (min-width: 960px) {
-         content: '- ';
-       }
-     }
+    &::before {
+      @media only screen and (min-width: 960px) {
+        content: '- ';
+      }
+    }
   }
 }
 
