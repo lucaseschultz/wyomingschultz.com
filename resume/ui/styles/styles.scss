@@ -346,10 +346,35 @@ img {
   margin: 5px 0;
 }
 
+.education-details a {
+  font-weight: 500;
+
+  &:hover {
+    color: #003d7a;
+  }
+
+  .fa-external-link {
+    font-size: 0.8em;
+    margin-left: 3px;
+  }
+}
+
+.education-details ul {
+  margin-top: 5px;
+
+  li {
+    font-size: 1.1em;
+    margin-bottom: 5px;
+    line-height: 1.4;
+  }
+}
+
 .education-description {
   color: #666;
   font-style: italic;
-  margin-bottom: 15px !important;
+  margin-bottom: 10px;
+  font-size: 1.1em;
+  line-height: 1.4;
 }
 
 /* Experience Styles */
