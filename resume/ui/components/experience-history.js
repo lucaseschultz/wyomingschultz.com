@@ -31,10 +31,9 @@ class ExperienceHistory extends HTMLElement {
                   <div class="experience-content">
                       <p><b>Intervarsity (IV) of Rock Valley College (RVC) President</b></p>
                       <ul>
-                          <li>Awarded 2021 RVC Male Student Leadership Award for exceptional leadership</li>
-                          <li>Analyzed team strengths to optimize resource allocation and improve efficiency</li>
-                          <li>Created documented frameworks for consistent implementation of organizational goals</li>
-                          <li>Designed iterative improvement cycles and data-driven strategies to increase engagement</li>
+                          <li>Received 2021 RVC Male Student Leadership Award for exceptional leadership</li>
+                          <li>Optimized team performance through strategic resource allocation and documented frameworks</li>
+                          <li>Increased engagement using data-driven strategies and continuous improvement cycles</li>
                       </ul>
                   </div>
               </div>
