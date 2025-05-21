@@ -496,3 +496,31 @@ img {
   color: #fff !important;
   background-color: #000 !important;
 }
+
+/* Print styles */
+@media print {
+  nav, .w3-button, footer {
+    display: none;
+  }
+
+  body {
+    font-size: 12pt;
+    line-height: 1.5;
+  }
+
+  a {
+    text-decoration: none;
+    color: #000;
+  }
+
+  .w3-content {
+    margin: 0;
+    max-width: 100%;
+  }
+
+  .transition {
+    opacity: 1;
+    filter: none;
+    transform: none;
+  }
+}
