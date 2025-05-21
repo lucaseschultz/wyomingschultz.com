@@ -7,8 +7,8 @@ class NavBar extends HTMLElement {
 
   connectedCallback() {
     this.innerHTML = `
-    <nav class="w3-top">
-        <div class="w3-row w3-large w3-light-grey header">
+    <nav class="nav-bar-container">
+        <div class="nav-bar w3-row w3-large w3-light-grey header">
             <div class="w3-col">
                 <a role="button" href="#about" class="nav-bar-button">About</a>
             </div>

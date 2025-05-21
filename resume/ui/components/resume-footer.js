@@ -7,9 +7,9 @@ class ResumeFooter extends HTMLElement {
 
   connectedCallback() {
     this.innerHTML = `
-      <footer class="w3-padding-32 w3-light-grey w3-center">
+      <footer class="footer-container w3-padding-32 w3-center">
 
-        <a role="button" href="#" class="nav-to-top-button w3-black w3-margin"><i
+        <a role="button" href="#" class="nav-to-top-button w3-margin"><i
                 class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
 
         <div class="w3-xlarge w3-section">

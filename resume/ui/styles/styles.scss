@@ -77,6 +77,11 @@
   }
 }
 
+@mixin nav-container {
+  color: var(--text-color-black);
+  background-color: var(--background-light-grey);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -200,6 +205,10 @@ a, button, .portfolio-item {
   width: 100%;
   z-index: 1;
   top: 0;
+}
+
+.nav-bar {
+  @include nav-container;
 }
 
 .header {
@@ -467,8 +476,14 @@ a, button, .portfolio-item {
 }
 
 /* Footer styles */
+.footer-container {
+  @include nav-container;
+}
+
 .nav-to-top-button {
   @include button;
+  color: var(--text-color-white);
+  background-color: var(--background-black);
 }
 
 .fa-brands {
@@ -561,16 +576,6 @@ a, button, .portfolio-item {
 
 .w3-border-dark-grey {
   border-color: var(--border-dark-grey) !important;
-}
-
-.w3-light-grey {
-  color: var(--text-color-black) !important;
-  background-color: var(--background-light-grey) !important;
-}
-
-.w3-black {
-  color: var(--text-color-white) !important;
-  background-color: var(--background-black) !important;
 }
 
 .w3-hover-text-blue:hover {
