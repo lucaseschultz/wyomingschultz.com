@@ -9,7 +9,7 @@ class SkillsCards extends HTMLElement {
     this.innerHTML = `
       <div class="w3-row-padding transition" id="skills">
         <div class='w3-padding-32'>
-          <h3 class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16" style="width: 4ch;">Skills</h3>
+          <h3 class="component-header w3-xlarge" style="width: 4ch;">Skills</h3>
         </div>
           
         <div class="skills-categories">

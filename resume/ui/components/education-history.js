@@ -9,7 +9,7 @@ class EducationHistory extends HTMLElement {
     this.innerHTML = `
       <div class="w3-row-padding transition" id="education">
         <div class="w3-padding-32">
-          <h3 class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16" style="width: 8ch;">Education</h3>
+          <h3 class="component-header w3-xlarge" style="width: 8ch;">Education</h3>
         </div>
         <div>
           <ul class="education-list">
