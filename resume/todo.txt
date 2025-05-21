@@ -43,3 +43,5 @@ add these mixins?
     transform: scale(1);
   }
 }
+
+fix mobile profile image display being uncentered
