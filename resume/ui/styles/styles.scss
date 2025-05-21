@@ -149,7 +149,7 @@ a, button, .portfolio-item {
 }
 
 .transition {
-  transition: all var(--transition-speed-slow) ease;
+  transition: transform var(--transition-speed-slow) ease, filter var(--transition-speed-slow) ease, opacity var(--transition-speed-slow) ease, ;
   @media(prefers-reduced-motion) {
     transition: none;
   }
