@@ -12,11 +12,11 @@ Remove transitions from “Who I Am”
 
 Reduce “Skills” animation zone to less that screen
 
+remove unused images
+
 revisit skills list
 
 replace open AI icon with generic
-
-remove unused images
 
 Let components get more on page, before activating appear animation
 
