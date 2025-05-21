@@ -265,6 +265,8 @@ img {
   padding: 20px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+  cursor: pointer;
 }
 
 .portfolio-item:hover {
@@ -272,18 +274,22 @@ img {
   box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }
 
-.portfolio-link {
-  display: inline-block;
-  margin-right: 15px;
+.portfolio-content {
   margin-top: 10px;
-  color: #333;
-  text-decoration: none;
-  font-weight: bold;
 }
 
-.portfolio-link:hover {
-  color: #0056b3;
+.portfolio-link-icon {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  color: #333;
+  font-size: 1.2em;
 }
+
+.portfolio-item:hover .portfolio-link-icon {
+  color: var(--link-hover-color);
+}
+
 
 /* Education Styles */
 .education-list {
