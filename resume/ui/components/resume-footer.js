@@ -15,9 +15,9 @@ class ResumeFooter extends HTMLElement {
         <div class="w3-xlarge w3-section">
             <div>
                 <a href="https://www.linkedin.com/in/lucas-schultz-a92958151" title="Lucas Schultz' LinkedIn"
-                   target="_blank" class="w3-hover-text-blue"><i class="fa fa-brands fa-linkedin fa-lg"></i></a>
+                   target="_blank"><i class="fa fa-brands fa-linkedin fa-lg"></i></a>
                 <a href="https://github.com/lucaseschultz" title="Lucas Schultz' GitHub"
-                   target="_blank" class="w3-hover-text-blue"><i class="fa fa-brands fa-github fa-lg"></i></a>
+                   target="_blank"><i class="fa fa-brands fa-github fa-lg"></i></a>
             </div>
         </div>
       </footer>
