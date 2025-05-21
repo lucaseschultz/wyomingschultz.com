@@ -82,6 +82,7 @@
   background-color: var(--background-light-grey);
 }
 
+// Global
 * {
   margin: 0;
   padding: 0;
@@ -154,7 +155,7 @@ a, button, .portfolio-item {
   }
 }
 
-/* w3 classes */
+// w3 classes
 .w3-content {
   max-width: 96ch;
   margin: 80px auto;
@@ -241,7 +242,7 @@ a, button, .portfolio-item {
   color: var(--link-hover-color) !important;
 }
 
-/* Nav Bar */
+// Nav Bar
 .nav-bar-container {
   position: fixed;
   width: 100%;
@@ -282,7 +283,7 @@ a, button, .portfolio-item {
   width: 100%;
 }
 
-/* Page content */
+// Page
 #page {
   margin-top: 50px;
 
@@ -291,6 +292,7 @@ a, button, .portfolio-item {
   }
 }
 
+// Panel
 .w3-panel, .profile {
   max-width: 439px;
 }
@@ -307,7 +309,7 @@ a, button, .portfolio-item {
   text-align: center;
 }
 
-/* Skills Categories Styles */
+// Skills Cards
 .skills-categories {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -350,7 +352,7 @@ a, button, .portfolio-item {
   margin-right: 5px;
 }
 
-/* Portfolio Grid Styles */
+// Portfolio Cards
 .portfolio-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -390,7 +392,7 @@ a, button, .portfolio-item {
 }
 
 
-/* Education Styles */
+// Education History
 .education-list {
   list-style: none;
   padding: 0;
@@ -466,7 +468,7 @@ a, button, .portfolio-item {
   line-height: 1.4;
 }
 
-/* Experience Styles */
+// Experience History
 .experience-list {
   margin-top: 0;
 
@@ -505,7 +507,7 @@ a, button, .portfolio-item {
   height: auto;
 }
 
-/* Contact styles */
+// Contact Me
 #copy-email-btn {
   cursor: pointer;
   font-size: 14px;
@@ -517,7 +519,7 @@ a, button, .portfolio-item {
   font-weight: 500;
 }
 
-/* Footer styles */
+// Footer
 .footer-container {
   @include nav-container;
 }
@@ -532,15 +534,15 @@ a, button, .portfolio-item {
   margin-left: .4rem;
 }
 
-/* Animation */
+// Animations
 .show {
   opacity: 1;
   filter: blur(0);
   transform: translateX(0);
 }
 
-/* Responsive styles */
-/* Mobile */
+// Responsive styles
+// Mobile
 @media only screen and (max-width: 480px) {
   .content {
     font-size: .8rem;
@@ -559,7 +561,7 @@ a, button, .portfolio-item {
   }
 }
 
-/* Tablet */
+// Tablet
 @media only screen and (min-width: 481px) and (max-width: 960px) {
   .content {
     font-size: .9rem;
@@ -570,6 +572,7 @@ a, button, .portfolio-item {
   }
 }
 
+// Laptop
 @include maxViewport("laptop") {
   .content {
     text-align: center;
@@ -581,7 +584,7 @@ a, button, .portfolio-item {
   }
 }
 
-/* Print styles */
+// Print
 @media print {
   nav, .nav-bar-button, .nav-to-top-button, footer {
     display: none;
