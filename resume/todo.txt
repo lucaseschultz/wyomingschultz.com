@@ -34,4 +34,4 @@ li, p {
 
 audit styles.scss
 
-audit education-history.js
+audit mobile styling
