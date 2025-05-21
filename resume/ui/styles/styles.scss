@@ -436,9 +436,38 @@ img {
 }
 
 /* Responsive styles */
-@media only screen and (max-width: 960px) {
+/* Mobile */
+@media only screen and (max-width: 480px) {
   .content {
     font-size: .8rem;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  .w3-button {
+    padding: 8px 10px;
+  }
+
+  .portfolio-grid, .skills-categories {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Tablet */
+@media only screen and (min-width: 481px) and (max-width: 960px) {
+  .content {
+    font-size: .9rem;
+  }
+
+  .portfolio-grid, .skills-categories {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  .content {
     text-align: center;
   }
 
