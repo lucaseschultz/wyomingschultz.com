@@ -30,6 +30,8 @@ li, p {
   font-size: 1.4em;
 }
 
+make portfolio cards clickable, rather than having like at bottom of card
+
 audit styles.scss
 
 audit mobile styling
