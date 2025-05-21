@@ -23,21 +23,21 @@ class EducationHistory extends HTMLElement {
                   Front End Development Libraries Certification <i class="fa fa-external-link"></i>
                 </a></p>
                 <p class="education-description">
-                  React, Redux, Bootstrap, jQuery, SASS. Completed 5 projects demonstrating framework proficiency.
+                  React, Redux, Bootstrap, jQuery, SASS
                 </p>
                 
                 <p><a href="https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/" target="_blank">
                   JavaScript Algorithms and Data Structures Certification <i class="fa fa-external-link"></i>
                 </a></p>
                 <p class="education-description">
-                  Advanced JavaScript, algorithmic problem-solving, functional programming, OOP design patterns.
+                  Advanced JS, algorithms, functional programming, OOP patterns
                 </p>
                 
                 <p><a href="https://replit.com/learn/100-days-of-python/hub" target="_blank">
                   100 Days of Code - The Complete Python Course <i class="fa fa-external-link"></i>
                 </a></p>
                 <p class="education-description">
-                  Python data structures, algorithms, web development, and automation. Built web scrapers, data analysis tools, and APIs.
+                  Python fundamentals, web development, data analysis, API integration
                 </p>
               </div>
             </li>
@@ -50,7 +50,7 @@ class EducationHistory extends HTMLElement {
               <div class="education-details">
                 <p>Rock Valley College, Rockford, IL</p>
                 <p class="education-description">
-                  Developed critical thinking and analytical skills that transferred to software engineering.
+                  Critical thinking and analytical skills applicable to software engineering
                 </p>
               </div>
             </li>
@@ -61,7 +61,7 @@ class EducationHistory extends HTMLElement {
               </div>
               <div class="education-details">
                 <ul>
-                  <li>Building full-stack applications with modern frameworks</li>
+                  <li>Full-stack application development with modern frameworks</li>
                 </ul>
               </div>
             </li>
