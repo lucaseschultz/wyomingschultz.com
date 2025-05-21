@@ -8,7 +8,7 @@ Make social link+ transitions quicker (keep slide-in from left same)
 
 Widen page
 
-Remove transitions from “Who I Am”
+Remove transitions from “Who Am I”, for mobile
 
 Reduce “Skills” animation zone to less that screen
 
