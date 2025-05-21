@@ -1,11 +1,6 @@
 :root {
   --link-hover-color: #2196F3;
-  --font-size-base: 1.4em;
-  --font-size-h1: 2.5em;
-  --font-size-h2: 30px;
   --font-size-h3: 24px;
-  --font-size-h4: 20px;
-  --font-size-strong: 2em;
   --transition-speed: 0.3s;
   --transition-speed-slow: 0.9s;
   --border-color: #ccc;
@@ -21,7 +16,6 @@
   --border-radius-small: 5px;
   --border-radius-medium: 8px;
   --border-radius-large: 15px;
-  --border-radius-pill: 20px;
   --margin-standard: 16px;
   --padding-standard: 16px;
   --padding-large: 32px;
@@ -99,11 +93,11 @@ a, button, .portfolio-item {
 }
 
 h1 {
-  font-size: var(--font-size-h1);
+  font-size: 2.5em;
 }
 
 h2 {
-  font-size: var(--font-size-h2);
+  font-size: 30px;
 }
 
 h3 {
@@ -111,7 +105,7 @@ h3 {
 }
 
 h4 {
-  font-size: var(--font-size-h4);
+  font-size: 20px;
 }
 
 a {
@@ -124,12 +118,12 @@ a {
 }
 
 strong {
-  font-size: var(--font-size-strong);
+  font-size: 2em;
   font-weight: bolder;
 }
 
 li, p {
-  font-size: var(--font-size-base);
+  font-size: 1.4em;
 }
 
 img {
@@ -293,7 +287,7 @@ img {
   @include flex-container(null, null, center);
   background-color: white;
   padding: 5px 10px;
-  border-radius: var(--border-radius-pill);
+  border-radius: 20px;
   font-size: 14px;
   box-shadow: var(--box-shadow-light);
 }
