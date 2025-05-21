@@ -466,13 +466,6 @@ a, button, .portfolio-item {
   font-weight: 500;
 }
 
-/* Animation */
-.show {
-  opacity: 1;
-  filter: blur(0);
-  transform: translateX(0);
-}
-
 /* Footer styles */
 .nav-to-top-button {
   @include button;
@@ -480,6 +473,13 @@ a, button, .portfolio-item {
 
 .fa-brands {
   margin-left: .4rem;
+}
+
+/* Animation */
+.show {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
 }
 
 /* Responsive styles */
