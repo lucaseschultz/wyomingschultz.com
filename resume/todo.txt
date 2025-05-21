@@ -1,12 +1,4 @@
-Optimize
-
-Stop Auto-rotation after Active User Interaction/Make “skills” carousel scrollable (by left and right hover)
-
-Make “Email Copied” temporary & add icon (make “click to copy“)
-
 Make social link+ transitions quicker (keep slide-in from left same)
-
-Widen page
 
 Remove transitions from “Who Am I”, for mobile
 
