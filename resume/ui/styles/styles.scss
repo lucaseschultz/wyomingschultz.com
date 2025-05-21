@@ -573,6 +573,10 @@ a, button, .portfolio-item {
   background-color: var(--background-black) !important;
 }
 
+.w3-hover-text-blue:hover {
+  color: var(--link-hover-color) !important;
+}
+
 /* Print styles */
 @media print {
   nav, .navbar-button, .nav-to-top-button, footer {
@@ -599,8 +603,4 @@ a, button, .portfolio-item {
     filter: none;
     transform: none;
   }
-}
-
-.w3-hover-text-blue:hover {
-  color: var(--link-hover-color) !important;
 }
