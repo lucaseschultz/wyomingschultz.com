@@ -25,11 +25,6 @@ shorten Intervarsity bullet points?
 
 refactor w3 classes?
 
-convert duplicate styling to variables. Ex.
-li, p {
-  font-size: 1.4em;
-}
-
 audit styles.scss
 
 audit mobile styling

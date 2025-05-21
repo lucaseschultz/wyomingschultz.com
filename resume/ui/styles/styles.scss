@@ -1,5 +1,30 @@
 :root {
   --link-hover-color: #2196F3;
+  --font-size-base: 1.4em;
+  --font-size-h1: 2.5em;
+  --font-size-h2: 30px;
+  --font-size-h3: 24px;
+  --font-size-h4: 20px;
+  --font-size-strong: 2em;
+  --transition-speed: 0.3s;
+  --transition-speed-slow: 0.9s;
+  --border-color: #ccc;
+  --border-dark-grey: #616161;
+  --background-light-grey: #f1f1f1;
+  --background-black: #000;
+  --text-color-white: #fff;
+  --text-color-black: #000;
+  --text-color-grey: #666;
+  --box-shadow-light: 0 1px 3px rgba(0,0,0,0.1);
+  --box-shadow-medium: 0 2px 5px rgba(0,0,0,0.1);
+  --box-shadow-hover: 0 5px 15px rgba(0,0,0,0.1);
+  --border-radius-small: 5px;
+  --border-radius-medium: 8px;
+  --border-radius-large: 15px;
+  --border-radius-pill: 20px;
+  --margin-standard: 16px;
+  --padding-standard: 16px;
+  --padding-large: 32px;
 }
 
 @mixin flex-vertical-centered {
@@ -31,33 +56,33 @@ html, body, h1, h2, h3, h4, p {
 }
 
 a, button, .portfolio-item {
-  transition: all 0.3s ease;
+  transition: all var(--transition-speed) ease;
   @media(prefers-reduced-motion) {
     transition: none;
   }
 }
 
 .transition {
-  transition: all 0.9s ease;
+  transition: all var(--transition-speed-slow) ease;
   @media(prefers-reduced-motion) {
     transition: none;
   }
 }
 
 h1 {
-  font-size: 2.5em;
+  font-size: var(--font-size-h1);
 }
 
 h2 {
-  font-size: 30px;
+  font-size: var(--font-size-h2);
 }
 
 h3 {
-  font-size: 24px;
+  font-size: var(--font-size-h3);
 }
 
 h4 {
-  font-size: 20px;
+  font-size: var(--font-size-h4);
 }
 
 a {
@@ -70,12 +95,12 @@ a {
 }
 
 strong {
-  font-size: 2em;
+  font-size: var(--font-size-strong);
   font-weight: bolder;
 }
 
 li, p {
-  font-size: 1.4em;
+  font-size: var(--font-size-base);
 }
 
 img {
@@ -119,8 +144,8 @@ img {
 }
 
 .w3-panel {
-  margin-top: 16px;
-  margin-bottom: 16px;
+  margin-top: var(--margin-standard);
+  margin-bottom: var(--margin-standard);
 
   @media only screen and (max-width: 960px) {
     position: relative;
@@ -172,8 +197,8 @@ img {
   user-select: none;
 
   &:hover {
-    color: #000 !important;
-    background-color: #ccc !important;
+    color: var(--text-color-black) !important;
+    background-color: var(--border-color) !important;
   }
 }
 
@@ -217,7 +242,7 @@ img {
 
 .skill-category {
   border: 1px solid #eee;
-  border-radius: 5px;
+  border-radius: var(--border-radius-small);
   padding: 15px;
   background-color: #f9f9f9;
 }
@@ -240,9 +265,9 @@ img {
   align-items: center;
   background-color: white;
   padding: 5px 10px;
-  border-radius: 20px;
+  border-radius: var(--border-radius-pill);
   font-size: 14px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  box-shadow: var(--box-shadow-light);
 }
 
 .skill-item img {
@@ -261,17 +286,17 @@ img {
 
 .portfolio-item {
   border: 1px solid #eee;
-  border-radius: 5px;
+  border-radius: var(--border-radius-small);
   padding: 20px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: var(--box-shadow-medium);
+  transition: transform var(--transition-speed) ease, box-shadow var(--transition-speed) ease;
   position: relative;
   cursor: pointer;
 }
 
 .portfolio-item:hover {
   transform: translateY(-5px);
-  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  box-shadow: var(--box-shadow-hover);
 }
 
 .portfolio-content {
@@ -329,7 +354,7 @@ img {
   background-color: #333;
   color: white;
   padding: 3px 10px;
-  border-radius: 15px;
+  border-radius: var(--border-radius-large);
   font-size: .8em;
 }
 
@@ -362,7 +387,7 @@ img {
 }
 
 .education-description {
-  color: #666;
+  color: var(--text-color-grey);
   font-style: italic;
   margin-bottom: 10px;
   font-size: .85em;
@@ -414,7 +439,7 @@ img {
   cursor: pointer;
   font-size: 14px;
   margin-left: 1rem;
-  border-radius: 8px;
+  border-radius: var(--border-radius-medium);
   border-width: 0;
   padding: 3px 9px;
   line-height: 20px;
@@ -477,25 +502,25 @@ img {
 
 /* W3.CSS utility classes that are used */
 .w3-padding-16 {
-  padding-top: 16px !important;
-  padding-bottom: 16px !important;
+  padding-top: var(--padding-standard) !important;
+  padding-bottom: var(--padding-standard) !important;
 }
 
 .w3-padding-32 {
-  padding-top: 32px !important;
-  padding-bottom: 32px !important;
+  padding-top: var(--padding-large) !important;
+  padding-bottom: var(--padding-large) !important;
 }
 
 .w3-margin {
-  margin: 16px !important;
+  margin: var(--margin-standard) !important;
 }
 
 .w3-margin-right {
-  margin-right: 16px !important;
+  margin-right: var(--margin-standard) !important;
 }
 
 .w3-xlarge {
-  font-size: 24px !important;
+  font-size: var(--font-size-h3) !important;
 }
 
 .w3-large {
@@ -507,21 +532,21 @@ img {
 }
 
 .w3-bottombar {
-  border-bottom: 6px solid #ccc !important;
+  border-bottom: 6px solid var(--border-color) !important;
 }
 
 .w3-border-dark-grey {
-  border-color: #616161 !important;
+  border-color: var(--border-dark-grey) !important;
 }
 
 .w3-light-grey {
-  color: #000 !important;
-  background-color: #f1f1f1 !important;
+  color: var(--text-color-black) !important;
+  background-color: var(--background-light-grey) !important;
 }
 
 .w3-black {
-  color: #fff !important;
-  background-color: #000 !important;
+  color: var(--text-color-white) !important;
+  background-color: var(--background-black) !important;
 }
 
 /* Print styles */
@@ -537,7 +562,7 @@ img {
 
   a {
     text-decoration: none;
-    color: #000;
+    color: var(--text-color-black);
   }
 
   .w3-content {
@@ -550,4 +575,8 @@ img {
     filter: none;
     transform: none;
   }
+}
+
+.w3-hover-text-blue:hover {
+  color: var(--link-hover-color) !important;
 }
