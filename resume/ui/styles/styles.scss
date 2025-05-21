@@ -301,6 +301,7 @@ a, button, .portfolio-item {
   height: auto;
 
   @include maxViewport("laptop") {
+    margin: 0 auto;
     width: 90vw;
   }
 }
