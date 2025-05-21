@@ -56,6 +56,27 @@
   }
 }
 
+@mixin button {
+  border: none;
+  display: inline-block;
+  padding: 8px 16px;
+  vertical-align: middle;
+  overflow: hidden;
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+  &:hover {
+    color: var(--text-color-black) !important;
+    background-color: var(--border-color) !important;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -201,25 +222,8 @@ a, button, .portfolio-item {
   }
 }
 
-.w3-button {
-  border: none;
-  display: inline-block;
-  padding: 8px 16px;
-  vertical-align: middle;
-  overflow: hidden;
-  text-align: center;
-  cursor: pointer;
-  white-space: nowrap;
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-
-  &:hover {
-    color: var(--text-color-black) !important;
-    background-color: var(--border-color) !important;
-  }
+.navbar-button {
+  @include button;
 }
 
 .w3-col {
@@ -470,6 +474,10 @@ a, button, .portfolio-item {
 }
 
 /* Footer styles */
+.nav-to-top-button {
+  @include button;
+}
+
 .fa-brands {
   margin-left: .4rem;
 }
@@ -567,7 +575,7 @@ a, button, .portfolio-item {
 
 /* Print styles */
 @media print {
-  nav, .w3-button, footer {
+  nav, .navbar-button, .nav-to-top-button, footer {
     display: none;
   }
 
