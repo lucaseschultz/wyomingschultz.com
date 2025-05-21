@@ -10,22 +10,22 @@ class NavBar extends HTMLElement {
     <nav class="w3-top">
         <div class="w3-row w3-large w3-light-grey header">
             <div class="w3-col">
-                <a role="button" href="#about" class="navbar-button">About</a>
+                <a role="button" href="#about" class="nav-bar-button">About</a>
             </div>
             <div class="w3-col">
-                <a role="button" href="#skills" class="navbar-button">Skills</a>
+                <a role="button" href="#skills" class="nav-bar-button">Skills</a>
             </div>
             <div class="w3-col">
-                <a role="button" href="#portfolio" class="navbar-button">Portfolio</a>
+                <a role="button" href="#portfolio" class="nav-bar-button">Portfolio</a>
             </div>
             <div class="w3-col">
-                <a role="button" href="#education" class="navbar-button">Education</a>
+                <a role="button" href="#education" class="nav-bar-button">Education</a>
             </div>
             <div class="w3-col header-last-row">
-                <a role="button" href="#experience" class="navbar-button">Experience</a>
+                <a role="button" href="#experience" class="nav-bar-button">Experience</a>
             </div>
             <div class="w3-col header-last-row">
-                <a role="button" href="#contact" class="navbar-button">Contact</a>
+                <a role="button" href="#contact" class="nav-bar-button">Contact</a>
             </div>
         </div>
     </nav>

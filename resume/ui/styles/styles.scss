@@ -579,7 +579,7 @@ a, button, .portfolio-item {
 
 /* Print styles */
 @media print {
-  nav, .navbar-button, .nav-to-top-button, footer {
+  nav, .nav-bar-button, .nav-to-top-button, footer {
     display: none;
   }
 
