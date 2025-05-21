@@ -41,20 +41,18 @@ class EducationHistory extends HTMLElement {
                 </p>
               </div>
             </li>
-            
             <li class="education-item">
               <div class="education-header">
-                <h4>Associates Degree in Criminal Justice</h4>
+                <h4>Associates Degree</h4>
                 <span class="education-date">2021</span>
               </div>
               <div class="education-details">
                 <p>Rock Valley College, Rockford, IL</p>
                 <p class="education-description">
-                  Critical thinking and analytical skills applicable to software engineering
+                  Coursework included data analysis, research methodology, and logical reasoning
                 </p>
               </div>
             </li>
-            
             <li class="education-item">
               <div class="education-header">
                 <h4>Ongoing Professional Development</h4>
