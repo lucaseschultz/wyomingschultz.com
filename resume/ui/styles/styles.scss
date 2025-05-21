@@ -295,16 +295,16 @@ a, button, .portfolio-item {
   max-width: 439px;
 }
 
-#name {
-  text-align: center;
-}
-
 .profile {
   height: auto;
 
   @include maxViewport("laptop") {
     width: 90vw;
   }
+}
+
+#name {
+  text-align: center;
 }
 
 /* Skills Categories Styles */
