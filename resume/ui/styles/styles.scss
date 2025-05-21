@@ -114,6 +114,20 @@ img {
   vertical-align: middle;
 }
 
+a, button, .portfolio-item {
+  transition: all var(--transition-speed) ease;
+  @media(prefers-reduced-motion) {
+    transition: none;
+  }
+}
+
+.transition {
+  transition: all var(--transition-speed-slow) ease;
+  @media(prefers-reduced-motion) {
+    transition: none;
+  }
+}
+
 /* w3 classes */
 .w3-content {
   max-width: 96ch;
