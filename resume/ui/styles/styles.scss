@@ -188,10 +188,6 @@ a, button, .portfolio-item {
   }
 }
 
-.w3-row-padding {
-  padding: 0 8px;
-}
-
 .w3-panel {
   margin-top: var(--margin-standard);
   padding: 0.01em 16px;
@@ -238,14 +234,18 @@ a, button, .portfolio-item {
 
 .nav-bar {
   @include nav-container;
-}
+  @include flex-container(row, center, center, 0);
 
-.header {
+  @include maxViewport("laptop") {
+    @include flex-container(row, space-between, center);
+    flex-wrap: wrap;
+  }
+
   div {
-    width: 16%;
+    width: 33.33%;
 
-    @include maxViewport("laptop") {
-      width: 30%;
+    @include minViewport("laptop") {
+      width: 16%;
     }
 
     a {
@@ -260,13 +260,17 @@ a, button, .portfolio-item {
   }
 }
 
-.nav-bar-button {
-  @include button;
+.nav-bar-button-container {
+  width: 100%;
+  text-align: center;
 }
 
-.nav-bar-button-container {
-  float: left;
-  width: 100%;
+.nav-bar-button {
+  @include button;
+
+  @include maxViewport("laptop") {
+    padding: 12px 16px; // Slightly larger touch target for mobile
+  }
 }
 
 // Page

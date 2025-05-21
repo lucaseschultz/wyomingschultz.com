@@ -7,7 +7,7 @@ class PortfolioCards extends HTMLElement {
 
   connectedCallback() {
     this.innerHTML = `
-      <div class="w3-row-padding transition" id="portfolio">
+      <div class="transition" id="portfolio">
         <div class='w3-padding-32'>
           <h3 class="component-header w3-xlarge" style="width: 18ch;">
             Programming Portfolio
