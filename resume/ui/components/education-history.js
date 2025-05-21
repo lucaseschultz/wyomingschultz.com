@@ -13,7 +13,7 @@ class EducationHistory extends HTMLElement {
         </div>
         <div>
           <ul class="education-list">
-            <li class="education-item">
+            <li>
               <div class="education-header">
                 <h4>Technical Certifications</h4>
                 <span class="education-date">2023-2024</span>
@@ -41,7 +41,7 @@ class EducationHistory extends HTMLElement {
                 </p>
               </div>
             </li>
-            <li class="education-item">
+            <li>
               <div class="education-header">
                 <h4>Associates Degree</h4>
                 <span class="education-date">2021</span>
@@ -53,7 +53,7 @@ class EducationHistory extends HTMLElement {
                 </p>
               </div>
             </li>
-            <li class="education-item">
+            <li>
               <div class="education-header">
                 <h4>Ongoing Professional Development</h4>
               </div>
