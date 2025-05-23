@@ -502,18 +502,18 @@ a, button, .portfolio-item {
 
 .transition {
   opacity: 0;
-  filter: blur(1px);
-  transform: translateX(-100%);
-  transition: opacity var(--transition-speed-slow) ease, filter var(--transition-speed-slow) ease, transform var(--transition-speed-slow) ease, ;
-  will-change: transform, filter, opacity;
+  transform: translateX(-50px);
+  transition: none;
+  will-change: opacity, transform, transition;
+}
+
+.show {
+  opacity: 1;
+  transform: translateX(0);
+  transition: opacity 0.8s ease, transform 0.8s ease;
   @media(prefers-reduced-motion) {
     transition: none;
   }
-}
-.show {
-  opacity: 1;
-  filter: blur(0);
-  transform: translateX(0);
 }
 
 // Responsive styles
