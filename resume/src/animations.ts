@@ -7,8 +7,8 @@ const TRANSITION_OBSERVER = new IntersectionObserver((entries) => {
         }
     })
 }, {
-    rootMargin: "0px 0px -100px 0px",
-    threshold: 0.6
+    rootMargin: "0px 0px -150px 0px",
+    threshold: 0.1
 });
 
 TRANSITION_ITEMS.forEach((el) => TRANSITION_OBSERVER.observe(el));
