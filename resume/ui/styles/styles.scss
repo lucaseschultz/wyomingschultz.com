@@ -269,11 +269,13 @@ a {
 }
 
 .profile {
+  margin: 0 auto;
+  width: 90vw;
   height: auto;
 
-  @include maxViewport("laptop") {
-    margin: 0 auto;
-    width: 90vw;
+  @include minViewport("laptop") {
+    width: 439px;
+    height: 514px;
   }
 }
 
