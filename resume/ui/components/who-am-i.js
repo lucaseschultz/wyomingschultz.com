@@ -7,15 +7,13 @@ class WhoAmI extends HTMLElement {
 
   connectedCallback() {
     this.innerHTML = `
-      <div class="transition" id="about">
-        <div class="component-header-container">
+      <div id="about">
+        <div class="component-header-container transition">
           <span class="component-header w3-xlarge">Who I Am</span>
         </div>
-        <div>
-          <p>
-            Software Engineer • Problem Solver • 2+ Years Experience
-          </p>
-        </div>
+        <p class="transition">
+          Software Engineer • Problem Solver • 2+ Years Experience
+        </p>
       </div>
     `;
   }
