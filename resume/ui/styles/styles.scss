@@ -170,7 +170,7 @@ a {
 }
 
 // w3 classes
-.w3-row, .panel {
+.w3-row {
   &:after, &:before {
     content: "";
     display: table;
@@ -264,7 +264,7 @@ a {
 }
 
 // Panel
-.w3-panel, .profile {
+.panel {
   max-width: 439px;
 }
 
