@@ -8,7 +8,7 @@ class ContactMe extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
       <div class="w3-padding-32 transition" id="contact">
-        <div class='w3-padding-32'>
+        <div class='component-header-container'>
             <h3 class="component-header w3-xlarge"
                 style="width: 9ch; margin-top: 0;">Contact Me</h3>
         </div>

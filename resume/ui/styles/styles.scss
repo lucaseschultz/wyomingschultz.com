@@ -155,6 +155,10 @@ a, button, .portfolio-item {
   }
 }
 
+.component-header-container {
+  @extend .w3-padding-32
+}
+
 .component-header {
   padding-top: var(--padding-standard);
   padding-bottom: var(--padding-standard);
