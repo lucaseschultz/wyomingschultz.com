@@ -10,6 +10,8 @@ replace open AI icon with generic
 
 Let components get more on page, before activating appear animation
 
+don't update url, upon inter-site navigation, if possible
+
 audit styles.scss: refactor maxViewport to make "mobile first"?, refactor w3 classes (make unique class names)
 
 audit mobile styling: skills component
