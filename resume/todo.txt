@@ -1,14 +1,10 @@
 Remove transitions from “Who Am I”, for mobile
 
-Reduce “Skills” animation zone to less that screen
-
 remove unused images
 
 revisit skills list
 
 replace open AI icon with generic
-
-Let components get more on page, before activating appear animation
 
 don't update url, upon inter-site navigation, if possible
 

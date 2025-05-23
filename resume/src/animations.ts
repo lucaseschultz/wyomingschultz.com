@@ -6,6 +6,9 @@ const TRANSITION_OBSERVER = new IntersectionObserver((entries) => {
             entry.target.classList.add('show');
         }
     })
+}, {
+    rootMargin: "0px 0px -100px 0px",
+    threshold: 0.6
 });
 
 TRANSITION_ITEMS.forEach((el) => TRANSITION_OBSERVER.observe(el));
