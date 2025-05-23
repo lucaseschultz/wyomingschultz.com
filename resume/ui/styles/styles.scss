@@ -102,6 +102,14 @@ body {
   margin: 0;
 }
 
+#page {
+  margin-top: 50px;
+
+  @include maxViewport("laptop") {
+    margin-top: 100px;
+  }
+}
+
 h1 {
   font-size: 2.5em;
 }
@@ -138,20 +146,6 @@ a {
 
   &:active, &:hover {
     color: var(--link-hover-color);
-  }
-}
-
-a, button, .portfolio-item {
-  transition: all var(--transition-speed) ease;
-  @media(prefers-reduced-motion) {
-    transition: none;
-  }
-}
-
-.transition {
-  transition: transform var(--transition-speed-slow) ease, filter var(--transition-speed-slow) ease, opacity var(--transition-speed-slow) ease, ;
-  @media(prefers-reduced-motion) {
-    transition: none;
   }
 }
 
@@ -274,15 +268,6 @@ a, button, .portfolio-item {
 
   @include maxViewport("laptop") {
     padding: 12px 16px; // Slightly larger touch target for mobile
-  }
-}
-
-// Page
-#page {
-  margin-top: 50px;
-
-  @include maxViewport("laptop") {
-    margin-top: 100px;
   }
 }
 
@@ -527,6 +512,19 @@ a, button, .portfolio-item {
 }
 
 // Animations
+a, button, .portfolio-item {
+  transition: all var(--transition-speed) ease;
+  @media(prefers-reduced-motion) {
+    transition: none;
+  }
+}
+
+.transition {
+  transition: transform var(--transition-speed-slow) ease, filter var(--transition-speed-slow) ease, opacity var(--transition-speed-slow) ease, ;
+  @media(prefers-reduced-motion) {
+    transition: none;
+  }
+}
 .show {
   opacity: 1;
   filter: blur(0);
