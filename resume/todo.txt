@@ -1,5 +1,3 @@
-Remove transitions from “Who Am I”, for mobile
-
 remove unused images
 
 revisit skills list
