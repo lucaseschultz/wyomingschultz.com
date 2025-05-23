@@ -12,7 +12,7 @@ Let components get more on page, before activating appear animation
 
 audit styles.scss: refactor w3 classes (make unique class names), refactor maxViewport to make "mobile first"
 
-audit mobile styling
+audit mobile styling: skills component, profile image not centering
 
 add these mixins?
 @mixin card-container($background-color: var(--foreground), $border-radius: 8px, $border: 1px solid var(--outline),
