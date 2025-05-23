@@ -17,10 +17,10 @@ class SkillsCards extends HTMLElement {
             <h4>Frontend</h4>
             <div class="skill-items">
               <div class="skill-item"><img src="../images/html-icon.png" alt="HTML Icon"/> HTML/CSS</div>
+              <div class="skill-item"><img src="../images/scss-icon.png" alt="SCSS Icon"/> CSS Frameworks</div>
               <div class="skill-item"><img src="../images/javascript-icon.png" alt="JavaScript Icon"/> JavaScript/TypeScript</div>
               <div class="skill-item"><img src="../images/react-icon.png" alt="React Icon"/> React/Next.js</div>
               <div class="skill-item"><img src="../images/angular-icon.png" alt="Angular Icon"/> Angular</div>
-              <div class="skill-item"><img src="../images/scss-icon.png" alt="SCSS Icon"/> CSS Frameworks</div>
             </div>
           </div>
           
