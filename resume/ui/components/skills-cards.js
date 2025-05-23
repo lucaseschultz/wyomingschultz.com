@@ -7,13 +7,13 @@ class SkillsCards extends HTMLElement {
 
   connectedCallback() {
     this.innerHTML = `
-      <div class="transition" id="skills">
-        <div class='component-header-container'>
+      <div id="skills">
+        <div class='component-header-container transition'>
           <h3 class="component-header w3-xlarge" style="width: 4ch;">Skills</h3>
         </div>
           
         <div class="skills-categories">
-          <div class="skill-category">
+          <div class="skill-category transition">
             <h4>Frontend</h4>
             <div class="skill-items">
               <div class="skill-item"><img src="../images/html-icon.png" alt="HTML Logo"/> HTML/CSS</div>
@@ -24,7 +24,7 @@ class SkillsCards extends HTMLElement {
             </div>
           </div>
           
-          <div class="skill-category">
+          <div class="skill-category transition">
             <h4>Backend</h4>
             <div class="skill-items">
               <div class="skill-item"><img src="../images/nodejs-icon.png" alt="Node Logo"/> Node.js/Express</div>
@@ -34,7 +34,7 @@ class SkillsCards extends HTMLElement {
             </div>
           </div>
           
-          <div class="skill-category">
+          <div class="skill-category transition">
             <h4>Tools & Practices</h4>
             <div class="skill-items">
               <div class="skill-item"><img src="../images/git-icon.png" alt="Git Logo"/> Git/GitHub</div>

@@ -12,7 +12,7 @@ class ExperienceHistory extends HTMLElement {
                 <h3 class="component-header w3-xlarge" style="width: 9ch;">Experience</h3>
             </div>
             <div class="experience-list">
-                <div class="transition transition">
+                <div class="transition">
                     <img class="experience-img" src="../images/crescent_electric_supply_logo.jpg" alt=""/>
                     <div class="experience-content">
                         <p><b>Crescent Electric Supply Company</b></p>
@@ -24,7 +24,7 @@ class ExperienceHistory extends HTMLElement {
                     </div>
                 </div>
 
-                <div class="transition transition">
+                <div class="transition">
                   <img class="experience-img" src="../images/intervarsity_logo.png" alt="" />
                   <div class="experience-content">
                       <p><b>Intervarsity (IV) of Rock Valley College (RVC) President</b></p>

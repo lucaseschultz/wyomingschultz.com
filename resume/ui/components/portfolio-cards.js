@@ -7,14 +7,14 @@ class PortfolioCards extends HTMLElement {
 
   connectedCallback() {
     this.innerHTML = `
-      <div class="transition" id="portfolio">
-        <div class='component-header-container'>
+      <div id="portfolio">
+        <div class='component-header-container transition'>
           <h3 class="component-header w3-xlarge" style="width: 18ch;">
             Programming Portfolio
           </h3>
         </div>
         <div class="portfolio-grid">
-          <div class="portfolio-item" onclick="window.open('https://wyomingschultz.com/palindrome-checker/', '_blank')">
+          <div class="portfolio-item transition" onclick="window.open('https://wyomingschultz.com/palindrome-checker/', '_blank')">
             <i class="fa fa-external-link portfolio-link-icon"></i>
             <div class="portfolio-content">
               <h4>Palindrome Checker</h4>
@@ -22,7 +22,7 @@ class PortfolioCards extends HTMLElement {
               <p><strong>Tech:</strong> JavaScript, HTML, CSS</p>
             </div>
           </div>
-          <div class="portfolio-item" onclick="window.open('https://wyomingschultz.com/roman-numeral-calculator/', '_blank')">
+          <div class="portfolio-item transition" onclick="window.open('https://wyomingschultz.com/roman-numeral-calculator/', '_blank')">
             <i class="fa fa-external-link portfolio-link-icon"></i>
             <div class="portfolio-content">
               <h4>Roman Numeral Calculator</h4>
@@ -30,7 +30,7 @@ class PortfolioCards extends HTMLElement {
               <p><strong>Tech:</strong> JavaScript, HTML, CSS</p>
             </div>
           </div>
-          <div class="portfolio-item" onclick="window.open('https://wyomingschultz.com/phone-number-validator/', '_blank')">
+          <div class="portfolio-item transition" onclick="window.open('https://wyomingschultz.com/phone-number-validator/', '_blank')">
             <i class="fa fa-external-link portfolio-link-icon"></i>
             <div class="portfolio-content">
               <h4>Phone Number Validator</h4>
