@@ -102,11 +102,21 @@ body {
   margin: 0;
 }
 
-#page {
-  margin-top: 50px;
+main {
+  margin-top: 100px;
+  max-width: 90vw;
 
-  @include maxViewport("laptop") {
-    margin-top: 100px;
+  * > div {
+    @include flex-container(column, null, center);
+  }
+
+  * > span:last-of-type {
+    @include flex-container(column, null, center);
+  }
+
+  @include minViewport(laptop) {
+    max-width: 96ch;
+    margin: 80px auto;
   }
 }
 
@@ -160,24 +170,6 @@ a {
 }
 
 // w3 classes
-.w3-content {
-  max-width: 96ch;
-  margin: 80px auto;
-
-  @include maxViewport("laptop") {
-    margin-top: 110px;
-    max-width: 90vw;
-
-    * > div {
-      @include flex-container(column, null, center);
-    }
-
-    * > span:last-of-type {
-      @include flex-container(column, null, center);
-    }
-  }
-}
-
 .w3-row, .w3-panel {
   &:after, &:before {
     content: "";
@@ -590,7 +582,7 @@ a, button, .portfolio-item {
     color: var(--text-color-black);
   }
 
-  .w3-content {
+  .main {
     margin: 0;
     max-width: 100%;
   }
