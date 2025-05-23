@@ -41,7 +41,8 @@ class SkillsCards extends HTMLElement {
               <div class="skill-item"><img src="../images/ci_cd-icon.png" alt="CI/CD Icon"/> CI/CD</div>
               <div class="skill-item"><img src="../images/agile_icon.png" alt="Agile Logo"/> Agile</div>
               <div class="skill-item"><img src="../images/ui_ux-icon.png" alt="UI/UX Icon"/> UI/UX Design</div>
-              <div class="skill-item"><img src="../images/openai-icon.png" alt="OpenAI Logo"/> AI Integration</div>            </div>
+              <div class="skill-item"><img src="../images/openai-icon.png" alt="OpenAI Logo"/> AI Integration</div>
+            </div>
           </div>
         </div>
       </div>
