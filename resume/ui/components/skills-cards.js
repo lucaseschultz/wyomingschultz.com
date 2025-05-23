@@ -9,7 +9,7 @@ class SkillsCards extends HTMLElement {
     this.innerHTML = `
       <div id="skills">
         <div class='component-header-container transition'>
-          <h3 class="component-header w3-xlarge" style="width: 4ch;">Skills</h3>
+          <h3 class="component-header" style="width: 4ch;">Skills</h3>
         </div>
           
         <div class="skills-categories">

@@ -9,7 +9,7 @@ class ContactMe extends HTMLElement {
     this.innerHTML = `
       <div class="w3-padding-32 transition" id="contact">
         <div class='component-header-container'>
-            <h3 class="component-header w3-xlarge"
+            <h3 class="component-header"
                 style="width: 9ch; margin-top: 0;">Contact Me</h3>
         </div>
         <div style="margin-top: 0;">

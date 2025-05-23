@@ -9,7 +9,7 @@ class ExperienceHistory extends HTMLElement {
     this.innerHTML = `
       <div class="w3-row" id="experience">
             <div class="component-header-container transition">
-                <h3 class="component-header w3-xlarge" style="width: 9ch;">Experience</h3>
+                <h3 class="component-header" style="width: 9ch;">Experience</h3>
             </div>
             <div class="experience-list">
                 <div class="transition">

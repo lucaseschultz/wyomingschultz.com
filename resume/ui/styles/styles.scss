@@ -165,6 +165,7 @@ a {
 }
 
 .component-header {
+  @extend .w3-xlarge;
   padding-top: var(--padding-standard);
   padding-bottom: var(--padding-standard);
   border-bottom: 6px solid var(--border-color);  border-color: var(--border-dark-grey);

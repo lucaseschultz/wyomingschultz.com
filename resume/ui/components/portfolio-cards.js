@@ -9,7 +9,7 @@ class PortfolioCards extends HTMLElement {
     this.innerHTML = `
       <div id="portfolio">
         <div class='component-header-container transition'>
-          <h3 class="component-header w3-xlarge" style="width: 18ch;">
+          <h3 class="component-header" style="width: 18ch;">
             Programming Portfolio
           </h3>
         </div>

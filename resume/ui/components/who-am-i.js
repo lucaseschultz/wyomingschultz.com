@@ -9,7 +9,7 @@ class WhoAmI extends HTMLElement {
     this.innerHTML = `
       <div id="about">
         <div class="component-header-container transition">
-          <span class="component-header w3-xlarge">Who I Am</span>
+          <span class="component-header">Who I Am</span>
         </div>
         <p class="transition">
           Software Engineer • Problem Solver • 2+ Years Experience
