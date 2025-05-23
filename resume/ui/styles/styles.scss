@@ -267,12 +267,11 @@ a {
 .profile {
   margin: 0 auto;
   max-width: var(--panel-img-width);
-  width: 90vw;
-  height: auto;
+  height: 514px;
 
-  @include minViewport("laptop") {
-    width: var(--panel-img-width);
-    height: 514px;
+  @include maxViewport("laptop") {
+    width: 90vw;
+    height: auto;
   }
 }
 
