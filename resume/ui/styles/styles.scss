@@ -256,11 +256,9 @@ a {
 // Panel
 .panel {
   max-width: var(--panel-img-width);
-  margin: var(--margin-standard) 0;
 
   @include maxViewport("laptop") {
-    position: relative;
-    left: -5vw;
+    margin: var(--margin-standard) 0;
   }
 }
 
