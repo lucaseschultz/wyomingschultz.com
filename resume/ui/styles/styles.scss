@@ -19,6 +19,7 @@
   --margin-standard: 16px;
   --padding-standard: 16px;
   --padding-large: 32px;
+  --panel-img-width: 439px;
 }
 
 // Mixins
@@ -265,12 +266,12 @@ a {
 
 .profile {
   margin: 0 auto;
-  max-width: 439px;
+  max-width: var(--panel-img-width);
   width: 90vw;
   height: auto;
 
   @include minViewport("laptop") {
-    width: 439px;
+    width: var(--panel-img-width);
     height: 514px;
   }
 }
