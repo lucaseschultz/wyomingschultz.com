@@ -178,17 +178,6 @@ a {
   }
 }
 
-.panel {
-  margin-top: var(--margin-standard);
-  padding: 0.01em 16px;
-  margin-bottom: var(--margin-standard);
-
-  @include maxViewport("laptop") {
-    position: relative;
-    left: -5vw;
-  }
-}
-
 .w3-padding-32 {
   padding-top: var(--padding-large) !important;
   padding-bottom: var(--padding-large) !important;
@@ -265,7 +254,12 @@ a {
 
 // Panel
 .panel {
-  max-width: 439px;
+  margin: var(--margin-standard) auto;
+
+  @include maxViewport("laptop") {
+    position: relative;
+    left: -5vw;
+  }
 }
 
 .profile {
