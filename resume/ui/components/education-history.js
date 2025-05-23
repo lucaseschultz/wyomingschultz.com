@@ -7,8 +7,8 @@ class EducationHistory extends HTMLElement {
 
   connectedCallback() {
     this.innerHTML = `
-      <div class="ransition" id="education">
-        <div class="w3-padding-32">
+      <div id="education">
+        <div class="component-header-container transition">
           <h3 class="component-header w3-xlarge" style="width: 8ch;">Education</h3>
         </div>
         <div>
