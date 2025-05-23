@@ -104,20 +104,20 @@ body {
 }
 
 main {
-  margin-top: 100px;
-  max-width: 90vw;
+  max-width: 96ch;
+  margin: 80px auto;
 
-  * > div {
-    @include flex-container(column, null, center);
-  }
+  @include maxViewport("laptop") {
+    margin-top: 100px;
+    max-width: 90vw;
 
-  * > span:last-of-type {
-    @include flex-container(column, null, center);
-  }
+    * > div {
+      @include flex-container(column, null, center);
+    }
 
-  @include minViewport(laptop) {
-    max-width: 96ch;
-    margin: 80px auto;
+    * > span:last-of-type {
+      @include flex-container(column, null, center);
+    }
   }
 }
 
