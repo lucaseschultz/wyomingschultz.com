@@ -8,7 +8,6 @@ don't update url, upon inter-site navigation, if possible
 
 audit styles.scss: refactor maxViewport to make "mobile first"?, refactor w3 classes (make unique class names)
 
-audit mobile styling: skills component
 
 add these mixins?
 @mixin card-container($background-color: var(--foreground), $border-radius: 8px, $border: 1px solid var(--outline),
