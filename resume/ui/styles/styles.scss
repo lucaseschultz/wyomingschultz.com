@@ -445,13 +445,6 @@ a {
   }
 }
 
-.transition {
-  opacity: 0;
-  filter: blur(1px);
-  transform: translateX(-100%);
-  will-change: transform, filter, opacity;
-}
-
 .experience-content {
   ul {
     li {
@@ -508,7 +501,11 @@ a, button, .portfolio-item {
 }
 
 .transition {
-  transition: transform var(--transition-speed-slow) ease, filter var(--transition-speed-slow) ease, opacity var(--transition-speed-slow) ease, ;
+  opacity: 0;
+  filter: blur(1px);
+  transform: translateX(-100%);
+  transition: opacity var(--transition-speed-slow) ease, filter var(--transition-speed-slow) ease, transform var(--transition-speed-slow) ease, ;
+  will-change: transform, filter, opacity;
   @media(prefers-reduced-motion) {
     transition: none;
   }
