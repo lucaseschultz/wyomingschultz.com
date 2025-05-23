@@ -1,9 +1,3 @@
-remove unused images
-
-revisit skills list
-
-replace open AI icon with generic
-
 don't update url, upon inter-site navigation, if possible
 
 audit styles.scss: refactor maxViewport to make "mobile first"?, refactor w3 classes (make unique class names)
