@@ -11,33 +11,3 @@ followed, including subduing aggresive individuals, Student Worker for Rock Vall
  open, run and close fast food resturaunt)
 
 audit styles.scss: refactor w3 classes (make unique class names)
-
-add these mixins?
-@mixin card-container($background-color: var(--foreground), $border-radius: 8px, $border: 1px solid var(--outline),
-                      $padding: 2rem) {
-  background-color: $background-color;
-  border-radius: $border-radius;
-  border: $border;
-  padding: $padding;
-}
-@mixin button-style($padding: 0.75rem 1.5rem, $bg-color: var(--interactive-color), $text-color: white) {
-  display: inline-block;
-  padding: $padding;
-  background-color: $bg-color;
-  color: $text-color;
-  border: none;
-  border-radius: 4px;
-  font-size: 1rem;
-  font-weight: 500;
-  cursor: pointer;
-  text-decoration: none;
-
-  &:hover {
-    background-color: var(--faded-interactive-color);
-    transform: scale(1.05);
-  }
-
-  &:active {
-    transform: scale(1);
-  }
-}
