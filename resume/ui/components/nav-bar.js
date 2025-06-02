@@ -30,6 +30,28 @@ class NavBar extends HTMLElement {
         </div>
     </nav>
       `;
+
+    this.removeUrlOnNav();
+  }
+
+  removeUrlOnNav() {
+    const navButtons = this.querySelectorAll('.nav-bar-button');
+
+    navButtons.forEach(button => {
+      button.addEventListener('click', (e) => {
+        e.preventDefault();
+
+        const targetId = button.getAttribute('href').substring(1);
+        const targetElement = document.getElementById(targetId);
+
+        if (targetElement) {
+          targetElement.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+          });
+        }
+      });
+    });
   }
 }
 
