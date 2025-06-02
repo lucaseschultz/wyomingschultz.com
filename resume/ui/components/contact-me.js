@@ -14,9 +14,9 @@ class ContactMe extends HTMLElement {
         </div>
         <div style="margin-top: 0;">
             <ul style="list-style-type: none;">
-                <li style="margin-bottom: .3rem;">Phone: <a href="tel:3072999958">(307) 299-9958</a> <i class="fa fa-external-link"></i></li>
+                <li style="margin-bottom: .3rem;">Phone: <a href="tel:3072999958">(307) 299-9958 <i class="fa fa-external-link"></i></a></li>
                 <li>
-                  Email: <a href="mailto:lucaseschultz@gmail.com" target="_blank">lucaseschultz@gmail.com</a> <i class="fa fa-external-link"></i>
+                  Email: <a href="mailto:lucaseschultz@gmail.com" target="_blank">lucaseschultz@gmail.com <i class="fa fa-external-link"></i></a>
                 </li>
             </ul>
         </div>
