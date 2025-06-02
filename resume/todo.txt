@@ -10,7 +10,7 @@ followed, including subduing aggresive individuals, Student Worker for Rock Vall
  with miscilaneous tasks, such as making ID cards and updating door security codes, Team Member for Beef-A-Roo - Helped
  open, run and close fast food resturaunt)
 
-audit styles.scss: refactor maxViewport to make "mobile first"?, refactor w3 classes (make unique class names)
+audit styles.scss: refactor w3 classes (make unique class names)
 
 add these mixins?
 @mixin card-container($background-color: var(--foreground), $border-radius: 8px, $border: 1px solid var(--outline),
