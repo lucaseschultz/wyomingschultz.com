@@ -7,7 +7,7 @@ class ExperienceHistory extends HTMLElement {
 
   connectedCallback() {
     this.innerHTML = `
-      <div class="w3-row" id="experience">
+      <div class="experience-container" id="experience">
             <div class="component-header-container transition">
                 <h3 class="component-header" style="width: 9ch;">Experience</h3>
             </div>
