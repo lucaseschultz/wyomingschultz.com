@@ -58,7 +58,7 @@ class EducationHistory extends HTMLElement {
             </div>
             <div class="education-details">
               <ul>
-                <li>Full-stack application development with modern frameworks</li>
+                <li>Freelance Full-Stack Application Development with Modern and Legacy Technologies</li>
               </ul>
             </div>
           </li>
